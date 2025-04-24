@@ -10,7 +10,7 @@ const Orte = [
   { name: "Berchtesgarden", slug: "berchtesgarden" },
 ];
 
-export function OrtePage() {
+export default function OrtePage() {
   return (
     <main className="p-8 flex justify-center">
       <div className="w-full max-w-2xl bg-white/30 backdrop-blur-md rounded-xl shadow-xl p-6">
