@@ -43,7 +43,7 @@ export default function BalatonPage() {
           <h2 className="text-2xl font-semibold text-rose-600 mb-4">🏞️ Fakten über den Balaton</h2>
           <ul className="list-disc list-inside text-gray-700">
             <li><strong>Fläche:</strong> Rund 600 km² – der größte See Mitteleuropas.</li>
-            <li><strong>Sehenswerte Orte:</strong> Tihany, Siófok, Balatonfüred, Keszthely.</li>
+            <li><strong>Sehenswerte Orte:</strong> Tihany, Siofok, Balatonfüred, Keszthely.</li>
             <li><strong>Aktivitäten:</strong> Segeln, Radfahren, Baden, Weinverkostung.</li>
           </ul>
         </section>
