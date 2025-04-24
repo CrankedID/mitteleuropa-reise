@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { useEffect, useRef } from "react";
 import Image from "next/image";
@@ -44,7 +44,7 @@ export default function AugsburgPage() {
           <ul className="list-disc list-inside text-gray-700">
             <li><strong>Gruendung:</strong> 15 v. Chr. als Augusta Vindelicorum durch die Roemer.</li>
             <li><strong>Besonderheit:</strong> Bedeutende Handelsstadt in der Renaissance durch Fugger und Welser.</li>
-            <li><strong>Sehenswürdigkeiten:</strong> Fuggerei, Augsburger Dom, Rathaus mit Goldener Saal.</li>
+            <li><strong>Sehensw&uuml;rdigkeiten:</strong> Fuggerei, Augsburger Dom, Rathaus mit Goldener Saal.</li>
           </ul>
         </section>
 
@@ -56,9 +56,9 @@ export default function AugsburgPage() {
         <section>
           <h2 className="text-2xl font-semibold text-rose-600 mb-4">🥗 Vegetarische Restaurants in Augsburg</h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li><strong>Michelangelo:</strong> Italienische Küche mit vegetarischen Optionen.</li>
+            <li><strong>Michelangelo:</strong> Italienische K&uuml;che mit vegetarischen Optionen.</li>
             <li><strong>Trattoria Pizzeria Crudo:</strong> Mediterrane Gerichte mit vielen vegetarischen Speisen.</li>
-            <li><strong>Maximilian's:</strong> Moderne Küche mit vegetarischen Highlights.</li>
+            <li><strong>Maximilian&apos;s:</strong> Moderne K&uuml;che mit vegetarischen Highlights.</li>
           </ul>
         </section>
       </div>
