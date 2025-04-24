@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { useEffect, useRef } from "react";
 import Image from "next/image";
@@ -29,7 +29,7 @@ export default function BalatonPage() {
         />
 
         <p className="mb-6 text-gray-800 text-center">
-          Der Balaton – das "ungarische Meer". Der größte Binnensee Mitteleuropas ist ein Paradies für Badeurlaub und Wassersport.
+          Der Balaton – auch als &quot;Plattensee&quot; bekannt – ist der gr&ouml;&szlig;te See Mitteleuropas und ein beliebtes Reiseziel in Ungarn.
         </p>
 
         <audio
@@ -40,11 +40,11 @@ export default function BalatonPage() {
         />
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-rose-600 mb-4">🏞️ Fakten über den Balaton</h2>
+          <h2 className="text-2xl font-semibold text-rose-600 mb-4">🏛️ Fakten &uuml;ber den Balaton</h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li><strong>Fläche:</strong> Rund 600 km² – der größte See Mitteleuropas.</li>
-            <li><strong>Sehenswerte Orte:</strong> Tihany, Siofok, Balatonfüred, Keszthely.</li>
-            <li><strong>Aktivitäten:</strong> Segeln, Radfahren, Baden, Weinverkostung.</li>
+            <li><strong>Lage:</strong> Westungarn, umgeben von Weinbergen und Thermen.</li>
+            <li><strong>Gr&ouml;&szlig;e:</strong> ca. 77 km lang und 14 km breit.</li>
+            <li><strong>Besonderheit:</strong> Familienfreundliche Str&auml;nde und seichte Ufer machen ihn ideal zum Baden.</li>
           </ul>
         </section>
 
@@ -54,11 +54,11 @@ export default function BalatonPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-rose-600 mb-4">🥗 Vegetarische Restaurants am Balaton</h2>
+          <h2 className="text-2xl font-semibold text-rose-600 mb-4">🥗 Vegetarische Restaurants in der Region</h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li><strong>FrissTerasz (Balatonfüred):</strong> Frische Bowls, vegane Wraps & Smoothies.</li>
-            <li><strong>Karám Restaurant (Tihany):</strong> Traditionelle ungarische Küche mit vegetarischer Auswahl.</li>
-            <li><strong>Vegane Küche am See (Siófok):</strong> Klein, lokal & rein pflanzlich.</li>
+            <li><strong>Ap&aacute;ts&aacute;gi Rege Cukr&aacute;szda (Tihany):</strong> Ber&uuml;hmt f&uuml;r Lavendel-Kuchen und vegetarische Snacks.</li>
+            <li><strong>Veganeck Balatonf&uuml;red:</strong> Pflanzliche Burger und Bowls mit Seeblick.</li>
+            <li><strong>Napf&eacute;ny Restaurant:</strong> Traditionelle K&uuml;che mit vegetarischer Auswahl.</li>
           </ul>
         </section>
       </div>
