@@ -1,6 +1,7 @@
 'use client';
-import Image from "next/image";
 import { useEffect, useRef } from "react";
+import Image from "next/image";
+import OrtsLayout from "../../../components/OrtsLayout";
 
 export default function KlenovicaPage() {
   const audioRef = useRef(null);
@@ -14,30 +15,25 @@ export default function KlenovicaPage() {
   }, []);
 
   return (
-    <main className="p-8">
-      <h1 className="mb-8 text-3xl font-bold text-rose-600">Klenovica</h1>
-
+    <OrtsLayout title="Klenovica">
       <Image
         src="/images/klenovica.jpg"
         alt="Klenovica"
         width={800}
         height={500}
-        className="rounded-xl shadow-lg my-4"
+        className="rounded-xl shadow-lg mx-auto mb-6"
       />
 
-      <p className="mb-6 font-bold text-black">
-       Hier werden wir eine ganze Woche verbringen :)
+      <p className="mb-4 text-gray-800 text-center">
+        Klenovica – ein idyllisches Küstendorf an der Adria. Perfekt zum Entspannen, Baden und Genießen 🌊☀️
       </p>
 
       <audio
         ref={audioRef}
-        controls
-        className="w-full rounded shadow-md mb-8"
+        src="/audio/klenovica.mp3"
         preload="auto"
-      >
-        <source src="/audio/klenovica.mp3" type="audio/mpeg" />
-        Dein Browser unterstützt keine Audio-Wiedergabe.
-      </audio>
-    </main>
+        className="w-full rounded shadow-md mb-4"
+      />
+    </OrtsLayout>
   );
 }
