@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 const startDatum = new Date("2025-06-29");
 const endDatum = new Date("2025-07-20");
@@ -70,31 +71,30 @@ export default function ReisetagebuchPage() {
           className="w-full p-4 rounded-lg shadow bg-white/80 text-black placeholder-gray-500 mb-4"
         />
 
-        <div className="mb-4">
-          <div className="mb-4 text-center">
-  <label
-    htmlFor="bild-upload"
-    className="inline-block bg-white/80 hover:bg-white text-black font-semibold px-6 py-2 rounded-lg shadow cursor-pointer"
-  >
-    📸 Bild auswählen
-  </label>
-  <input
-    id="bild-upload"
-    type="file"
-    accept="image/*"
-    onChange={handleBildUpload}
-    className="hidden"
-  />
-</div>
-
+        <div className="mb-4 text-center">
+          <label
+            htmlFor="bild-upload"
+            className="inline-block bg-white/80 hover:bg-white text-black font-semibold px-6 py-2 rounded-lg shadow cursor-pointer"
+          >
+            📸 Bild auswählen
+          </label>
+          <input
+            id="bild-upload"
+            type="file"
+            accept="image/*"
+            onChange={handleBildUpload}
+            className="hidden"
+          />
         </div>
 
         {bild && (
           <div className="mb-4">
             <p className="mb-2 font-semibold text-sm text-gray-700">Vorschau:</p>
-            <img
+            <Image
               src={bild}
               alt="Tagebuchbild"
+              width={600}
+              height={400}
               className="rounded-lg shadow-md max-h-80 w-auto mx-auto"
             />
           </div>
