@@ -43,6 +43,10 @@ export default function RootLayout({ children }) {
 	    <Link href="/reisetagebuch" className="nav-link text-gray-800 hover:text-rose-600">
   	      Tagebuch
 	    </Link>
+	    <Link href="/budget" className="nav-link text-gray-800 hover:text-rose-600">
+  	      Budget
+	    </Link>
+
           </div>
         </nav>
 
