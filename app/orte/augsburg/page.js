@@ -42,7 +42,7 @@ export default function AugsburgPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-rose-600 mb-4">🏛️ Fakten über Augsburg</h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li><strong>Gründung:</strong> 15 v. Chr. als Augusta Vindelicorum durch die Römer.</li>
+            <li><strong>Gruendung:</strong> 15 v. Chr. als Augusta Vindelicorum durch die Roemer.</li>
             <li><strong>Besonderheit:</strong> Bedeutende Handelsstadt in der Renaissance durch Fugger und Welser.</li>
             <li><strong>Sehenswürdigkeiten:</strong> Fuggerei, Augsburger Dom, Rathaus mit Goldener Saal.</li>
           </ul>
